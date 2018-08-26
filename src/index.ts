@@ -10,6 +10,11 @@ const config = {
 }
 
 async function main () {
+  if (!(config.username && config.password)) {
+    throw new Error('username or password is not specified')
+    return
+  }
+
   const text = await (() => new Promise(resolve => {
     const chunks: Array<String|Buffer> = []
 
