@@ -1,0 +1,22 @@
+{
+  "name": "mili",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otofune/mili.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.8",
+    "@types/jsdom": "^11.0.6",
+    "@types/node": "^10.7.1",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "axios-cookiejar-support": "^0.3.5",
+    "cheerio": "^1.0.0-rc.2",
+    "jsdom": "^12.0.0",
+    "tough-cookie": "^2.4.3"
+  }
+}
